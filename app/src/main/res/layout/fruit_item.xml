@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="220dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:id="@+id/fruit_img" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content">
+
+            <TextView
+
+                android:id="@+id/fruit_name"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:id="@+id/fruit_price"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_height="30dp"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:text="¥/"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_height="30dp"
+                android:layout_width="80dp"
+                android:id="@+id/fruit_unit"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:layout_height="30dp"
+                android:layout_width="70dp"
+                android:text="产地："
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_height="30dp"
+                android:layout_width="200dp"
+                android:id="@+id/fruit_orginplace"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/fruit_descr"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>
